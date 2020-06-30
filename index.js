@@ -23,8 +23,8 @@ function add2(n) {
   const two = 2
 }
 
-var funkyFunction = function outside() {
- return function(){
+var funkyFunction = function outsideFunction() {
+ return function insideFunction(){
   
    return "FUNKY!"
  }
